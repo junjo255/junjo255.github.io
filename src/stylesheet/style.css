@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,700,300italic);
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  align-items: center;
+  background-image: linear-gradient(to right, #054f7d, #00a7cf, #efe348, #861a54, #054f7d);
+  background-size: 600%;
+  background-position: 0 0;
+  box-shadow: inset 0 0 5em rgba(0, 0, 0, 0.5);
+  display: flex;
+  font-family: "Lato", Arial, sans-serif;
+  height: 100%;
+  justify-content: center;
+  /* Animation */
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-name: gradients;
+}
+
+h1 {
+  color: white;
+  font-size: 2.4em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 830px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+@keyframes gradients {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 50% 0;
+  }
+  50% {
+    background-position: 90% 0;
+  }
+  60% {
+    background-position: 60%;
+  }
+  75% {
+    background-position: 40%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
