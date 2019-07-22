@@ -12,7 +12,9 @@
     "start": "webpack-dev-server --mode development --open --hot",
     "react-dev": "webpack -d --watch",
     "server-dev": "nodemon server/index.js",
-    "homepage":"https://junjo255.github.io/",
+    "homepage": "https://junjo255.github.io/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "webpack"
   },
   "author": "Jun Jo",
@@ -30,6 +32,7 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "flux": "^3.1.3",
+    "gh-pages": "^2.0.1",
     "path": "^0.12.7",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
