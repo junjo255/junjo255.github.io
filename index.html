@@ -81,13 +81,16 @@
 		</div>
 
 		<div class="flex-center-vertically" >
-
-			<button classs="button" onClick="newReview()">New Review</button>
+			<div class="button" onClick="newReview()"> New Review
+			</div>
 		</div>
-		<div id="reviewDisplay"> </div>
+		<div id="second-row" class="copyText" onclick="copyToClipboard('#reviewDisplay')">COPY</div>
+		<div id="reviewDisplay"></div>
 	</div>
 
 	<script src="reviewGenerator.js"></script>
+	<script src="copyToClipboard.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 </body>
 
