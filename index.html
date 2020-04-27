@@ -11,8 +11,8 @@
 </head>
 
 <body>
-	<div class="blocks">
-		<div>
+	<div>
+		<div class="flex-center-vertically">
 			<svg id="logoSvg" width="357" height="123" viewBox="0 0 357 123" fill="none"
 				xmlns="http://www.w3.org/2000/svg">
 				<path
@@ -80,17 +80,14 @@
 			</svg>
 		</div>
 
+		<div class="flex-center-vertically" >
+
+			<button classs="button" onClick="newReview()">New Review</button>
+		</div>
+		<div id="reviewDisplay"> </div>
 	</div>
 
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+	<script src="reviewGenerator.js"></script>
 
 </body>
 
