@@ -78,6 +78,8 @@ body {
 	justify-content: center;
 	flex-direction: column;
 	margin-top: 15px;
+	font-family:Arial,Helvetica Neue,Helvetica,sans-serif;
+
 }
 
 .copyText:hover {
